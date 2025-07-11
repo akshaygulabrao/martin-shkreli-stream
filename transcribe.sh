@@ -1,0 +1,1 @@
+whisper audio.wav --model small.en --language en --word_timestamps True
