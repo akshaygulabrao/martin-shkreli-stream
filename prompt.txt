@@ -1,0 +1,8 @@
+This is a financial expert. Note that this was processed by a speech-to-text model that isn't perfect. If he talks about something that doesn't sound like a company, treat it as a company anyways. Pay especially close attention to the Biotech Companies that he mentions.
+
+Parse all of the financial opinions he says into the following json format:
+
+[
+    "Company Name 1" : ["Opinion1", "Opinion2"],
+    "Company Name 2" : ["Opnion1", "Opinion2"]
+]
