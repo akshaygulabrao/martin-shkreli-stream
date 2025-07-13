@@ -1,0 +1,18 @@
+[project]
+name = "martin-shkreli-stream"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "ane-transformers>=0.1.1",
+    "coremltools>=8.3.0",
+    "ipykernel>=6.29.5",
+    "openai-whisper>=20250625",
+    "pandas>=2.3.1",
+    "pysrt>=1.1.2",
+    "sqlalchemy>=2.0.41",
+    "webvtt-py>=0.5.1",
+    "yt-dlp>=2025.6.30",
+]
+
+[tool.uv.workspace]
+members = ["whisper.cpp"]
