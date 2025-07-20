@@ -4,15 +4,15 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     "ane-transformers>=0.1.1",
-    "coremltools>=8.3.0",
+    "fastparquet>=2024.11.0",
     "ipykernel>=6.29.5",
+    "llm>=0.26",
+    "nltk>=3.9.1",
     "openai-whisper>=20250625",
     "pandas>=2.3.1",
-    "pysrt>=1.1.2",
-    "sqlalchemy>=2.0.41",
+    "pyarrow>=20.0.0",
+    "sqlite-utils>=3.38",
     "webvtt-py>=0.5.1",
     "yt-dlp>=2025.6.30",
 ]
 
-[tool.uv.workspace]
-members = ["whisper.cpp"]
